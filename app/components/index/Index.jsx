@@ -9,7 +9,7 @@ export default class Index extends React.Component {
         return <div id="indexPane">
             <Header />
             <ul>
-                {!sessionStorage.getItem("cellphone")?<li className="bottom"><Link to="/login"><i className="index_icon1"></i>登录/注册</Link></li>:null}
+                {!sessionStorage.getItem("cellphone")?<li className="bottom"><Link to="/login"><i className="index_icon1"></i>登录华东师范尽快哈市的看风使舵/注册</Link></li>:null}
                 <li className="bottom"><Link to="/purchase"><i className="index_icon2"></i>限时抢购</Link></li>
                 <li className="bottom"><Link to="/productList"><i className="index_icon3"></i>产品列表</Link></li>
                 <li className="bottom"><Link to="/assets"><i className="index_icon4"></i>资产明细</Link></li>
